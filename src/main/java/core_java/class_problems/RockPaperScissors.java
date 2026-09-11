@@ -1,11 +1,10 @@
 package core_java.class_problems;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class RockPaperScissors {
 
-    private static final String[] MOVES = {"Rock", "Paper", "Scissors"};
+    private static final String[] MOVES = { "Rock", "Paper", "Scissors" };
 
     /**
      * Determines the outcome of a single round.
@@ -20,8 +19,8 @@ public class RockPaperScissors {
         }
 
         if ((playerMove.equalsIgnoreCase("Rock") && computerMove.equalsIgnoreCase("Scissors")) ||
-            (playerMove.equalsIgnoreCase("Paper") && computerMove.equalsIgnoreCase("Rock")) ||
-            (playerMove.equalsIgnoreCase("Scissors") && computerMove.equalsIgnoreCase("Paper"))) {
+                (playerMove.equalsIgnoreCase("Paper") && computerMove.equalsIgnoreCase("Rock")) ||
+                (playerMove.equalsIgnoreCase("Scissors") && computerMove.equalsIgnoreCase("Paper"))) {
             return "Player Wins";
         } else {
             return "Computer Wins";
@@ -77,7 +76,7 @@ public class RockPaperScissors {
 
     public static void main(String[] args) {
         System.out.println("--- Rock-Paper-Scissors Live Demo (5 Rounds) ---");
-        String[] sampleDemoMoves = {"Rock", "Paper", "Scissors", "Rock", "Paper"};
+        String[] sampleDemoMoves = { "Rock", "Paper", "Scissors", "Rock", "Paper" };
         runSimulation(5, sampleDemoMoves);
     }
 }

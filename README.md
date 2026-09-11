@@ -7,7 +7,34 @@ Repository for Step Semester 5 coursework following the branching model:
 
 ---
 
-## Date: 12-09-2026
+## Date: 12-09-2026 (Session 2)
+
+**Today's Work:**
+- Created `feature/session_2` branch from `develop`.
+- Solved and tested 5 Live-Coding Session problems under `string_manipulation.class_problems`:
+  1. `VowelConsonantCounter.java`: Counted vowels and consonants separately with case-insensitivity using `charAt()`.
+  2. `CsvStudentRecordParser.java`: Parsed and validated 3-field CSV student records using `split(",")`.
+  3. `FileExtensionValidator.java`: Validated allowed file types (`pdf`, `docx`, `zip`) using `lastIndexOf('.')` and `substring()`.
+  4. `MaskedPhoneNumberFormatter.java`: Validated 10-digit numbers and masked first 6 digits (`XXXXXX-last4`) with `StringBuilder`.
+  5. `BankTransactionReferenceValidator.java`: Normalized and validated 14-character reference codes without regex and formatted output with `StringBuilder`.
+- Solved and tested 5 Week 2 Assignment problems under `string_manipulation.assigment_problems`:
+  1. `AtmPinLengthValidator.java`: Validated exact 4-digit ATM PIN length using `length()` and conditional logic.
+  2. `WordReversalEncoder.java`: Encoded sentence by reversing each word individually while maintaining word order.
+  3. `ProductInventoryCsvParser.java`: Parsed product inventory CSV entries and formatted product, SKU, and quantity records.
+  4. `LibraryIsbnValidator.java`: Normalized and validated 13-character ISBNs with publisher code, year, and catalog numbers.
+  5. `StopWordFrequencyReport.java`: Filtered common stop words, counted word frequencies, and displayed output sorted by frequency descending.
+- Successfully pushed `feature/session_2` to GitHub remote.
+
+**Next Session Plan:**
+- Await instructions and problem set for Session 3.
+- Branch `feature/session_3` from `develop`.
+
+**Issues Faced:**
+- None
+
+---
+
+## Date: 12-09-2026 (Session 1)
 
 **Today's Work:**
 - Created `feature/session_1` branch from `develop`.

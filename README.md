@@ -7,6 +7,28 @@ Repository for Step Semester 5 coursework following the branching model:
 
 ---
 
+## Date: 12-09-2026 (Session 3)
+
+**Today's Work:**
+- Created `feature/session_3` branch from `develop`.
+- Solved and tested 5 Week 3 OOP Category C Practice problems under `classes_and_objects.class_problems`:
+  1. `Student.java`: Defined basic class with direct field access for student name and marks.
+  2. `HostelRoom.java`: Demonstrated independent instance state across two room objects.
+  3. `LibraryCard.java`: Verified Java's default field initialization values (`null`, `0`, `false`).
+  4. `Course.java`: Implemented parameterized constructor using `this` keyword.
+  5. `Applicant.java`: Tracked total object creation count across all instances using a static field.
+- Prepared `classes_and_objects.assigment_problems` sub-package.
+- Successfully pushed `feature/session_3` to GitHub remote.
+
+**Next Session Plan:**
+- Await Week 3 assignment problems or instructions for Session 4.
+- Branch `feature/session_4` from `develop`.
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 12-09-2026 (Session 2)
 
 **Today's Work:**

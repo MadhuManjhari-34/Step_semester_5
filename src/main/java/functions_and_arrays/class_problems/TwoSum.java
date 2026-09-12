@@ -1,0 +1,42 @@
+package functions_and_arrays.class_problems;
+
+import java.util.Arrays;
+
+public class TwoSum {
+
+    /**
+     * Finds two indices such that nums[i] + nums[j] == target using pairwise search.
+     *
+     * @param nums   Array of integers
+     * @param target Target sum
+     * @return Array containing the two indices [i, j]
+     */
+    public static int[] twoSum(int[] nums, int target) {
+        if (nums == null || nums.length < 2) {
+            return new int[]{};
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] + nums[j] == target) {
+                    return new int[]{i, j};
+                }
+            }
+        }
+
+        return new int[]{};
+    }
+
+    public static void main(String[] args) {
+        System.out.println("--- L1. Two Sum ---");
+        int[] nums1 = {2, 7, 11, 15};
+        int target1 = 9;
+        System.out.println("nums: " + Arrays.toString(nums1) + ", target: " + target1);
+        System.out.println("Output: " + Arrays.toString(twoSum(nums1, target1)));
+
+        int[] nums2 = {3, 2, 4};
+        int target2 = 6;
+        System.out.println("\nnums: " + Arrays.toString(nums2) + ", target: " + target2);
+        System.out.println("Output: " + Arrays.toString(twoSum(nums2, target2)));
+    }
+}
